@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .circle-img {
+            width: 150px; 
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<section id="header">
+    <a href="index.html">
+        <img src="Img/Product/logo.png" class="logo">
+    </a>    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a  href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+
+<section id="page-header3" class="about-header">
+    <h2>#Let's Talk</h2>
+    <p>Leave a Message, We Love to Hear From You!</p>
+</section>
+
+<section class="section-p1" id="cart">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Products</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td>     <img src="Img/Product/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>899</td>
+                <td><input type="number" value="1"></td>
+                <td>899</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td>     <img src="Img/Product/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>899</td>
+                <td><input type="number" value="1"></td>
+                <td>899</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td>     <img src="Img/Product/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>899</td>
+                <td><input type="number" value="1"></td>
+                <td>899</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td>     <img src="Img/Product/f4.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>899</td>
+                <td><input type="number" value="1"></td>
+                <td>899</td>
+            </tr>
+        </tbody>
+    </table>    
+</section>
+
+<section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+
+
+    <div id="Total">
+        <h3>Cart Total</h3>
+        <table>
+            <tr>
+                <td>Cart Total</td>
+                <td>3596</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>3596</strong></td>
+            </tr>
+        </table>'
+        <button class="normal">Proceed to Checkout</button>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="Img/Product/logo.png" class="logo1" alt="Logo">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Icon Height, Surat City, Gujarat, India</p>
+        <p><strong>Phone:</strong> +91 8320459236</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+ 
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="sign.html">Sign In</a>
+        <a href="cart.html">View Cart</a>
+        <a href="shop.html">My WishList</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="Img/Product/App.jpg" alt="App Store">
+            <img src="Img/Product/play.jpg" alt="Google Play">
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="Img/Product/pay.png" alt="Payment Methods">
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2024, Sujal Sangani - E-commerce Website</p>
+    </div>
+</footer>
+
+<script src="Img/Product/index.js"></script>
+</body>
+</html>
